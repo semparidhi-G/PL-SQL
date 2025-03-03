@@ -844,3 +844,12 @@ BEGIN
 END;
 
 ```
+### Views
+
+``` sql
+user_source
+user_object
+user_errors
+Querying Direct Dependencies of your schema objects using the USER DEPENDENCIES view -> USER_DEPENDENCIES
+```
+
