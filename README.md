@@ -851,5 +851,12 @@ user_source
 user_object
 user_errors
 Querying Direct Dependencies of your schema objects using the USER DEPENDENCIES view -> USER_DEPENDENCIES
+
+SELECT *
+FROM   user_dependencies
+WHERE  referenced_name = 'EMPLOYEES' AND
+       referenced_type = 'TABLE';
+
+
 ```
 
